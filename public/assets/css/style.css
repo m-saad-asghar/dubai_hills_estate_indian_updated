@@ -164,6 +164,11 @@ textarea:focus {
     outline: 0
 }
 
+.qr_code_centerize {
+    display: flex;
+    align-items: center;
+}
+
 .uppercase {
     text-transform: uppercase;
 }
@@ -205,6 +210,11 @@ h2 {
     font-size: 2rem;
 }
 
+.spacing_ending {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+
 .logo_align {
     display: flex !important;
     justify-content: space-between !important;
@@ -212,7 +222,7 @@ h2 {
 }
 
 .emaar_logo {
-    height: 60px !important;
+    height: 70px !important;
     width: auto !important;
 }
 
@@ -6528,6 +6538,11 @@ Project Four Css
 /* Mobile Layout: 320px. */
 @media only screen and (max-width: 767px) {
 
+    .contact_heading_styling {
+    line-height: 1.2 !important;
+    margin-bottom: 25px;
+    }
+
     .future_container {
     margin-bottom: 70px;
 }
@@ -6589,7 +6604,7 @@ Project Four Css
 	}
     .about-one {
         padding-top: 60px;
-        padding-bottom: 10px;
+        padding-bottom: 70px;
      }
 
     .submit_btn {
@@ -6610,7 +6625,7 @@ Project Four Css
     }
 
     .why-one {
-        padding: 60px 0 40px;
+        padding: 60px 0 70px;
     }
 
     .service-one {
@@ -6628,8 +6643,8 @@ Project Four Css
         margin-top: 20px;
     }
     .centerize {
-        display: flex;
-        justify-content: center;
+        display: flex !important;
+        justify-content: center !important;
     }
 
 	.about-one__content-bottom-author-box {
@@ -7843,6 +7858,8 @@ Project Four Css
 
 
 @media only screen and (max-width: 767px) {
+
+     
 
     .aligment_of_qr_code {
     display: flex;
