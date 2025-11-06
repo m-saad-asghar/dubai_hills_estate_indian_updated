@@ -46,7 +46,7 @@ export default function Banner() {
          <div>
              <p className='small_heading' style={{lineHeight: "1.2"}}>DUBAI HILLS ESTATE</p>
           <h3 style={{lineHeight: "1.2"}} className='main_heading_margin'>
-  Own a Luxury Home Starting at <span className="line-break">₹3.87Cr.*</span>
+  Own a Luxury Home Starting at <span className="line-break">₹3.91Cr.*</span>
 </h3>
          </div>
 
@@ -54,8 +54,8 @@ export default function Banner() {
 IN DUBAI’S MOST SOUGH-AFTER LOCATIONS.</p>
   <div className='resp_usd'>
         <p className="down_styling" style={{lineHeight: "1.5"}}>
-  *USD 436K / EUR 379K
-   / <span className="line-break-other">GBP 332K</span>
+  *USD 442K / EUR 384K
+   / <span className="line-break-other">GBP 338K</span>
 </p>
 
       </div>
