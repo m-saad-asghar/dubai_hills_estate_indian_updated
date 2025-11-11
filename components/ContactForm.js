@@ -10,7 +10,7 @@ import { useSearchParams } from 'next/navigation';
 // import Layout from "@/components/layout/Layout"
 // import Link from "next/link"
 
-export default function Contact() {
+export default function ContactForm() {
     const router = useRouter();
     const [formData, setFormData] = useState({
         name: '',
@@ -216,18 +216,17 @@ export default function Contact() {
             {/* You might wrap this in your <Layout> component here */}
             <div>
                 {/*Start Contact Page */}
-                <section className="contact-page" id="contact-form">
+                <section className="banner_form_container" id="contact-form">
                     <div className="contact-page__bottom">
                         {/*Start Contact Two */}
-                        <div className="contact-two">
-                            <div className="container">
+                        <div className="contact-two contact-page-form">
+                            <div className="">
                                 <div className="contact-two__inner">
-                                    <div className="title-box">
+                                    {/* <div className="title-box">
                                         <h2 style={{ color: "#ffffff" }} className='contact_heading_styling'>Request a Call From Our Property Advisor</h2>
                                         <p style={{ color: "#ffffff" }}>Required fields are marked *</p>
-                                    </div>
+                                    </div> */}
                                     <div className="contact-two__inner-box">
-                                        {/* 🎯 FIX 1: Add onSubmit handler */}
                                         <form 
                                             onSubmit={handleSubmit}
                                             className="contact-page__form contact-form-validated"
@@ -291,7 +290,6 @@ export default function Contact() {
                                                         <p className='error_msg' style={{ color: 'red', fontSize: '14px', marginTop: '5px' }}>{phoneError}</p>
                                                     </div>
                                                 </div>
-
                                                 <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12" style={{ marginBottom: 20 }}>
                                                     <div className="contact-page__input-box dropdown_styling">
                                                         <label className="form_label">
@@ -307,7 +305,7 @@ export default function Contact() {
                                                             spellCheck="false"
                                                             required
                                                         >
-                                                          <option value="">Select Bedrooms</option>
+                                                            <option value="">Select Bedrooms</option>
                                                             <option value="1 Bedroom">1 Bedroom</option>
                                                             <option value="2 Bedrooms">2 Bedrooms</option>
                                                             <option value="3 Bedrooms">3 Bedrooms</option>
@@ -316,10 +314,9 @@ export default function Contact() {
                                                         </select>
                                                     </div>
                                                 </div>
-                                                
                                             </div>
                                             <div className="row">
-                                                <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12" style={{ marginBottom: 20 }}>
+                                                 <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12" style={{ marginBottom: 20 }}>
                                                     <div className="contact-page__input-box dropdown_styling">
                                                         <label className="form_label">
                                                             How Soon You are Looking to Buy*
@@ -343,7 +340,7 @@ export default function Contact() {
                                                         </select>
                                                     </div>
                                                 </div>
-                                                 <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                                                <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12">
                                                     <div className="contact-page__input-box dropdown_styling">
                                                         <label className="form_label">
                                                             What is the Purpose of Buying?*
@@ -367,7 +364,8 @@ export default function Contact() {
                                             </div>
                                             <div className="row">
                                                 <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-                                                   
+                                                    <div>
+                                                    </div>
                                                 </div>
 
                                                 <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 btn_styling">

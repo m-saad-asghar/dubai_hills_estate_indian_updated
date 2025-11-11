@@ -215,6 +215,10 @@ h2 {
     padding-right: 15px !important;
 }
 
+.image_container {
+    height: 100vh !important;
+}
+
 .logo_align {
     display: flex !important;
     justify-content: space-between !important;
@@ -271,6 +275,17 @@ h6 {
   display: inline; /* default inline */
 }
 
+.banner_form_container {
+    padding: 30px;
+    padding-right: 0;
+}
+
+.contact-page-form {
+    padding-top: 10px;
+    padding-bottom: 15px;
+    padding: 25px;
+}
+
 
 .contact-two {
     background-color: #9f8151;
@@ -289,6 +304,11 @@ h6 {
     height: 100vh;
     width: 100%;
     object-fit: cover;
+}
+
+.custom_container {
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 /*== Swiper Nav Style1 Css ======*/
@@ -6538,6 +6558,15 @@ Project Four Css
 /* Mobile Layout: 320px. */
 @media only screen and (max-width: 767px) {
 
+    .image_container {
+    height: 100% !important;
+}
+
+    .custom_container { 
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
     .contact_heading_styling {
     line-height: 1.2 !important;
     margin-bottom: 25px;
@@ -7901,11 +7930,23 @@ Project Four Css
 		letter-spacing: 0.00em;
 	}
 
-	.main-slider-one__single {
-		padding: 268px 0px 170px;
+		.main-slider-one__single {
+		padding: 100px 0px 0px;
 	}
 
-    
+    .btn-one-form {
+    display: flex !important;
+    justify-content: center !important;
+    }
+
+    .banner_form_container {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .main-slider-one__single_form {
+		padding: 0px 0px 30px;
+	}
 
 	.main-slider-two__social-links {
 		display: none;
