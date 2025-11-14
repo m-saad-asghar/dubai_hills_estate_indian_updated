@@ -210,6 +210,10 @@ h2 {
     font-size: 2rem;
 }
 
+.captcha_container {
+    margin-top: 20px;
+}
+
 .spacing_ending {
     padding-left: 15px !important;
     padding-right: 15px !important;
@@ -6557,6 +6561,10 @@ Project Four Css
 
 /* Mobile Layout: 320px. */
 @media only screen and (max-width: 767px) {
+
+      .captcha_container {
+    margin-top: 30px;
+}
 
     .image_container {
     height: 100% !important;
