@@ -103,7 +103,7 @@ export default function TeamsListing() {
             className="hover-btn"
             style={{ zIndex: 3, position: "absolute" }}
             onClick={() => {
-              const element = document.getElementById("home");
+              const element = document.getElementById("#contact-form");
               if (element) element.scrollIntoView({ behavior: "smooth" });
             }}
           >

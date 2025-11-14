@@ -239,7 +239,7 @@ export default function ContactForm() {
             {/* You might wrap this in your <Layout> component here */}
             <div>
                 {/*Start Contact Page */}
-                <section className="banner_form_container" id="contact-form">
+                <section className="banner_form_container" id="contact-form-main">
                     <div className="contact-page__bottom">
                         {/*Start Contact Two */}
                         <div className="contact-two contact-page-form">
